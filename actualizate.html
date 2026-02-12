@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guía para Recién Egresados en Contabilidad</title>
+<style>
+    /* ===== Estilos generales ===== */
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #4facfe, #00f2fe);
+        color: #fff;
+        scroll-behavior: smooth;
+    }
+
+    /* ===== Sección de presentación ===== */
+    .presentation {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+        font-size: 1.5em;
+        margin-bottom: 30px;
+        text-shadow: 1px 1px 6px rgba(0,0,0,0.3);
+    }
+
+    p {
+        font-size: 1.1em;
+        margin-bottom: 40px;
+        line-height: 1.5;
+        max-width: 600px;
+    }
+
+    .btn {
+        background: #fff;
+        color: #00796b;
+        padding: 15px 30px;
+        font-size: 1.2em;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        transition: all 0.3s ease;
+        text-decoration: none;
+    }
+
+    .btn:hover {
+        background: #00796b;
+        color: #fff;
+        transform: scale(1.05);
+    }
+
+    .fade-in {
+        animation: fadeIn 2s ease forwards;
+        opacity: 0;
+    }
+
+    @keyframes fadeIn {
+        to { opacity: 1; }
+    }
+
+    .emoji {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+
+    /* ===== Carrusel ===== */
+    .carousel-section {
+        padding: 40px 20px;
+        background: #f0f8ff;
+        color: #333;
+    }
+
+    .carousel {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .card {
+        flex: 0 0 300px;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        padding: 20px;
+        scroll-snap-align: start;
+        position: relative;
+    }
+
+    .card h2 {
+        margin-top: 0;
+        font-size: 1.5em;
+    }
+
+    .emoji-card {
+        font-size: 2em;
+        margin-right: 10px;
+    }
+
+    .tip {
+        background: #e8f5e9;
+        border-left: 4px solid #2e7d32;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        font-style: italic;
+    }
+
+    .error {
+        background: #ffebee;
+        border-left: 4px solid #c62828;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        font-style: italic;
+    }
+
+    .bonus {
+        background: #fff8e1;
+        border-left: 4px solid #f9a825;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        font-style: italic;
+    }
+
+    /* Scrollbar estilizada */
+    .carousel::-webkit-scrollbar {
+        height: 10px;
+    }
+    .carousel::-webkit-scrollbar-thumb {
+        background-color: #00796b;
+        border-radius: 5px;
+    }
+
+    /* Títulos del carrusel */
+    .carousel-section h1 {
+        text-align: center;
+        color: #00796b;
+    }
+</style>
+</head>
+<body>
+
+<!-- ===== Presentación ===== -->
+<section class="presentation">
+    <div class="fade-in">
+        <div class="emoji">🧠</div>
+        <h1>Guía rápida para recién egresados</h1>
+        <h2>Aprende contabilidad sin miedo 😌</h2>
+        <p>Descubre paso a paso cómo sobrevivir tu primer año en un despacho contable, con tips, errores comunes y ejemplos prácticos. Tu confianza crecerá día a día.</p>
+        <!-- Botón que hace scroll hacia el carrusel -->
+        <a href="#guia" class="btn">🚀 Ir a la guía</a>
+    </div>
+</section>
+
+<!-- ===== Carrusel ===== -->
+<section id="guia" class="carousel-section">
+    <h1>🧾 Top 5 pasos para sobrevivir tu primer año en contabilidad</h1>
+    <div class="carousel">
+        <!-- Tarjeta 1 -->
+        <div class="card">
+            <h2><span class="emoji-card">🤖</span>1️⃣ Tu Prompt Maestro</h2>
+            <p>Pega esto en tu chat AI:<br>
+            “Actúa como un contador senior de despacho, paciente y pedagógico. Estoy en mi primera semana y tengo miedo de no entender. Guíame paso a paso, explícame despacio y dime errores comunes, tips y cómo revisar todo antes de entregar.”</p>
+            <div class="tip">💡 Tip: No necesitas escribir perfecto. La herramienta te guía como un mentor real.</div>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="card">
+            <h2><span class="emoji-card">📄</span>2️⃣ Describe tu caso</h2>
+            <p>Ejemplo: “Tengo estas facturas de compras y este estado de cuenta bancario.”</p>
+            <div class="tip">💡 Tip: Mientras más claro seas, mejor será la guía.</div>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div class="card">
+            <h2><span class="emoji-card">📝</span>3️⃣ Sigue la guía paso a paso</h2>
+            <p>Aprende a registrar cada operación, revisa ejemplos y detecta errores.</p>
+            <div class="tip">💡 Tip: Colorea tu cuaderno: azul = conceptos, verde = ejemplos, rojo = errores.</div>
+            <div class="error">⚠️ Error común: copiar sin entender. Siempre revisa y aprende de cada paso.</div>
+        </div>
+
+        <!-- Tarjeta 4 -->
+        <div class="card">
+            <h2><span class="emoji-card">✏️</span>4️⃣ Toma notas</h2>
+            <p>Copia todo en tu cuaderno personal. Observa tus errores y avances.</p>
+            <div class="tip">💡 Tip: Tu cuaderno se convierte en tu manual de supervivencia.</div>
+        </div>
+
+        <!-- Tarjeta 5 -->
+        <div class="card">
+            <h2><span class="emoji-card">🔄</span>5️⃣ Repite todos los días</h2>
+            <p>Registrar, revisar y corregir es la clave del aprendizaje real.</p>
+            <div class="tip">💡 Tip: Cada error es oro 💛. Aprende y sigue avanzando.</div>
+            <div class="bonus">💡 Bonus Tips: No te compares con otros, pregunta siempre que tengas dudas, revisa normativa oficial y celebra cada pequeño avance.</div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
